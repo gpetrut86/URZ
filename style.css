@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+    font-family: 'Press Start 2P', cursive;
+}
+
+.st0{fill:#7F8C8D;stroke:#2C3E50;stroke-width:1.3369;stroke-miterlimit:10;}
+.st1{fill:#35495E;}
+.st2{fill:#EDF0F1;}
+.st3{fill:none;stroke:#2C3E50;stroke-width:1.3611;stroke-miterlimit:10;}
+.st4{fill:#E64C3C;stroke:#C03B2B;stroke-width:4.0833;stroke-miterlimit:10;}
+.st5{fill:#C03B2B;}
+.st6{fill:none;stroke:#C03B2B;stroke-width:2.5553;stroke-miterlimit:10;}
+.st7{fill:#3D97D3;}
+.st8{fill:#F29C1F;}
+.st8_5{fill:#F29C1F;}
+
+.st9{fill:#965BA5;}
+.st10{fill:#E64D3B;}
+.st11{fill:#35495E;stroke:#2C3E50;stroke-width:1.3369;stroke-miterlimit:10;}
+.st12{fill:#35495E;stroke:#2C3E50;stroke-width:2.0724;stroke-miterlimit:10;}
+.st13{fill:#35495E;stroke:#E64C3C;stroke-width:1.3611;stroke-miterlimit:10;}
+.st14{fill:#E64C3C;}
+.st15{fill:none;stroke:#E64C3C;stroke-width:0.8518;stroke-miterlimit:10;}
+.st16{fill:#EDF0F1;stroke:#2C3E50;stroke-miterlimit:10;}
+.st17{fill:#D25627;}
+
+.main-section{
+    background-color:#f1c40f;
+}
+
+.navbar{
+    height: 10%;
+}
+
+.svg-container{
+    height: 90%;
+}
+
+#window,#taskbar{
+    visibility: hidden;
+    
+}
+
+#window{
+    transform-origin: top;
+}
+
+#smoke{
+    visibility: hidden;
+}
+
+.st5.active{
+
+fill: #d35400;
+
+    transition: .5s ease-in-out;
+animation-name: pulse;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+    0% {      transform: translateY(0px);
+        fill: #C03B2B;}
+    50% {       transform: translateY(-2px);
+        fill: #c03a2bd3;}
+    100% {    transform: translateY(0px);
+        fill: #C03B2B;}
+  }
+
+  .st7,.st8_5,.st9,.st10,.st14{
+fill: #3D97D3;
+
+    transition: .5s ease-in-out;
+animation-name: pulselights;
+animation-duration: 7s;
+animation-iteration-count: infinite;
+  }
+
+  @keyframes pulselights {
+    0% {   fill: #3D97D3;}
+    25% { fill: #C03B2B;}
+        50% {  fill: #965BA5;}
+    75% { fill: #F29C1F;}
+      0% { fill: #3D97D3;}
+  }
+
+ 
+  .logo-img{
+    background-color: #E64C3C;
+width: 200px;
+   
+    right: 10%;
+    top: 5%;
+    border-radius: 50%;
+ 
+  }
+
+  .logo-img img{
+    max-height: 200px;
+    margin: auto;
+  }
