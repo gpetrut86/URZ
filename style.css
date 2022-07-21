@@ -29,8 +29,13 @@
     background-color:#f1c40f;
 }
 
-.navbar{
+.navbar {
     height: 10%;
+    
+}
+.navbar .container-fluid{
+
+    background-color: #f1c40f!important;
 }
 
 .svg-container{
@@ -91,9 +96,10 @@ animation-iteration-count: infinite;
     background-color: #E64C3C;
 width: 200px;
    
-    right: 10%;
-    top: 5%;
+    right: 5%;
+    top: 10%;
     border-radius: 50%;
+    z-index: 10;
  
   }
 

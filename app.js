@@ -23,8 +23,8 @@ window.addEventListener("load", () => {
     const TLPC = gsap.timeline();
 
     TLPC
-        .from("#monitor", { y: "100%" })
-        .from("#keyboards", { y: "100%" }, "<")
+        .from("#monitor", { y: "100vh" })
+        .from("#keyboards", { y: "100vh" }, "<")
         .from(".logo-img", { y: "-100%" }, "<")
         .from("#taskbar", { autoAlpha: 0, y: 20 })
         .from("#window", { autoAlpha: 0, transform: "scale(0)" })
